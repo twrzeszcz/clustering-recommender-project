@@ -1,1 +1,2 @@
-# clustering-recommender-project
+# General Info
+This is a simple book recommendation and clustering project where we cluster books based on their descriptions encoded as pretrained embeddings and perform a similarity search using an unsupervised *Neareast Neighbors* algorithm with a *cosine* metric. Data preprocessing and training is done in the **books_prep_train** notebook. Book recommender is deployed in the app [Streamlit](https://share.streamlit.io/twrzeszcz/clustering-recommender-streamlit/main/app_streamlit.py) together with clusters visualizations using PCA and TSNE methods.
