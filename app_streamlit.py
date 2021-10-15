@@ -8,6 +8,7 @@ from sklearn.neighbors import NearestNeighbors
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
+import cv2
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
